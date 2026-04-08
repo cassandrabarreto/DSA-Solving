@@ -73,17 +73,32 @@ Depth-first search, breadth-first search, and tree path problems.
 
 | Problem | File |
 |---|---|
-| Depth First Values | `BinaryTree/binary_tree.py` |
-| Breadth First Values | `BinaryTree/binary.py` |
-| Tree Includes (DFS) | `BinaryTree/dfs.py` |
-| Tree Paths | `BinaryTree/tree_paths.py` |
-| All Tree Paths | `BinaryTree/all_tree_paths.py` |
-| Find Path | `BinaryTree/find_path.py` |
+| Depth First Values | `BinaryTree/depth_first_values.py` |
+| Breadth First Values | `BinaryTree/breadth_first_values.py` |
+| Tree Sum | `BinaryTree/tree_sum.py` |
+| Tree Includes | `BinaryTree/tree_includes.py` |
+| Tree Min Value | `BinaryTree/tree_min_value.py` |
+| Max Path Sum | `BinaryTree/max_path_sum.py` |
+| Path Finder | `BinaryTree/path_finder.py` |
 | Tree Value Count | `BinaryTree/tree_value_count.py` |
 | How High (Tree Height) | `BinaryTree/how_high.py` |
-| Max Path Sum | `BinaryTree/max_path_sum.py` |
+| Bottom Right Value | `BinaryTree/bottom_right_value.py` |
+| All Tree Paths | `BinaryTree/all_tree_paths.py` |
+| Tree Levels | `BinaryTree/tree_levels.py` |
 | Level Averages | `BinaryTree/level_averages.py` |
-| Graph Traversal | `BinaryTree/graphs_traverse.py` |
+| Leaf List | `BinaryTree/leaf_list.py` |
+
+### Graphs
+
+Graph traversal, path finding, and connected components.
+
+| Problem | File |
+|---|---|
+| Graph Traversal (DFS/BFS) | `BinaryTree/graphs_traverse.py` |
+| Has Path | `BinaryTree/graphs_traverse.py` |
+| Undirected Path | `BinaryTree/graphs_traverse.py` |
+| Connected Components Count | `BinaryTree/graphs_traverse.py` |
+| Largest Component | `BinaryTree/graphs_traverse.py` |
 
 ---
 

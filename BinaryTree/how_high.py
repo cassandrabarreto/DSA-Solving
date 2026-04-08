@@ -1,8 +1,17 @@
+"""
+Write a function, how_high, that takes in the root of a binary tree.
+The function should return a number representing the height of the tree.
+The height of a binary tree is defined as the maximal number of edges from the root node to any leaf node.
+If the tree is empty, return -1.
+"""
+
+
 class Node:
-    def __init__(self,val):
+    def __init__(self, val):
         self.val = val
         self.left = None
         self.right = None
+
 
 a = Node('a')
 b = Node('b')
@@ -17,27 +26,11 @@ b.left = d
 b.right = e
 c.right = f
 
-def how_high(root):
-    stack = [root]
-    right_count = 0
-    left_count = 0
 
+def how_high(root):
     if root is None:
         return -1
+    return 1 + max(how_high(root.left), how_high(root.right))
 
-    while stack:
-        node = stack.pop()
-
-        if node.right:
-            stack.append(node.right)
-            right_count += 1
-        
-        if node.left:
-            stack.append(node.left)
-            left_count += 1
-    print(right_count)
-    print(left_count)
-    return max(right_count, left_count)
-    
 
 print(how_high(a))
