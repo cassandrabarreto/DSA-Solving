@@ -1,4 +1,4 @@
-# DSA Solving
+# DSA Solving 🧬
 
 A collection of data structures and algorithms problems solved in Python, organized by topic. Built as a personal study log and reference.
 
