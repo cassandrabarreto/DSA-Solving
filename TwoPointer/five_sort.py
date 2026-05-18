@@ -1,7 +1,5 @@
 """ 
-    
 Write a function, five_sort, that takes in a list of numbers as an argument. The function should rearrange elements of the list 
-    
 such that all 5s appear at the end. Your function should perform this operation in-place by mutating the original list. 
 The function should return the list.
 
@@ -11,7 +9,6 @@ Important: Your function needs to mutate the original list in-place and should n
 
 five_sort([5, 0])
 # -> [0, 5] 
-
 """
 def five_sort(nums):
     i = 0
@@ -26,5 +23,4 @@ def five_sort(nums):
         else:
             i+= 1
     return nums
-
 
