@@ -14,7 +14,8 @@ def binary_search(numbers: list[int], target: int) -> int :
 
     while low <= high:
         # calculate mid point
-        mid = floor(low + high)
+        mid = floor((low + high)/2)
+                    
         # Check if target is greater or smaller than mid_point
         if target < numbers[mid]:
             #shift high to left
