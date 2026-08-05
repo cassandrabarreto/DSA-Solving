@@ -10,8 +10,6 @@ class Node:
         self.val = val
         self.next = None
 
-
-
 a = Node('A')
 b = Node('B')
 c = Node('C')
