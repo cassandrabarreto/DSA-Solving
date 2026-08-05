@@ -3,7 +3,6 @@
     The function should return a boolean indicating whether or not the linked list contains the target.
 """
 
-
 class Node:
     def __init__(self, val):
         self.val = val
