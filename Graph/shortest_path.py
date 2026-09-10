@@ -18,7 +18,7 @@ def find_shortest_path(graph, src, dst, visited):
     queue = deque([(src, 0)])
 
     if src in visited:
-            return -1
+        return -1
 
     visited.add(src)
     while queue:
