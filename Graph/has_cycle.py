@@ -31,3 +31,8 @@ def cycle_detect(graph :  dict[str, list[str]], node: str, visited: set, visitin
     visiting.remove(node)
     visited.add(node)
     return False
+
+assert has_cycle({"a": ["b"],"b": ["c"],"c": ["a"],})
+assert not has_cycle({"a": ["b"],"b": ["d"]})
+assert not has_cycle({"q": ["r", "s"],"r": ["t", "u"],"s": [],"t": [],"u": [],"v": ["w"],"w": [],"x": ["w"],})
+print("All tests have passed!")

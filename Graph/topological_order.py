@@ -43,3 +43,16 @@ def topological_order(graph):
     return order
 
 
+assert topological_order({
+    "a": ["f"],
+    "b": ["d"],
+    "c": ["a", "f"],
+    "d": ["e"],
+    "e": [],
+    "f": ["b", "e"],}) == ['c', 'a', 'f', 'b', 'd', 'e']
+
+assert topological_order({
+  "a": ["b"],
+  "b": ["c"],
+  "c": [],
+}) == ['a', 'b', 'c']
