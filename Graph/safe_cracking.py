@@ -61,3 +61,7 @@ def convert_to_graph(edges):
             graph[b] = []
         graph[a].append(b)
     return graph  
+
+
+assert safe_cracking([(7,1), (1,8), (7,8)]) == "718"
+assert safe_cracking([(1,2), (2,3), (3,4)]) == "1234"
